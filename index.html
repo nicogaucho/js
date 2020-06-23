@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css">
+</head>
+
+<style>
+
+    .tela{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+    }
+     
+</style>
+
+<body>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">javascript</li>
+    </ol>
+
+    <!-- 1 esercizio -->
+    <!-- <div class="container my-3 py-5">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <button id="hola" class="btn btn-warning">
+                    click aqui!
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- 2 esericio  -->
+   <!--  <div class="container my-3 py-5">
+        <div class="row">
+            <div class="col-6">
+                <button id="hola" class="btn btn-primary">voy!</button>
+            </div>
+            <div class="col-6">
+                <div class="tela">
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 3 esercizio  -->
+    <!-- <div class="container my-5">
+        <div class="row">
+            <div class="col-6">
+                <form action="">
+                    <div class="form-group">
+                        <label for="colorInput">Insert Code</label>
+                        <input id="colorInput" type="text" class="form-control">
+                    </div>
+                    <button id="colorButton" class="btn btn-lg btn-primary w-100" type="submit">Generate</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <div id="colorBox" style="width: 300px; height: 300px; background-color: #ddd"></div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- 4 esercizio  -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <button id="toggler" class="btn btn-lg border-dark">Switch</button>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptas modi ipsum aliquid eos numquam aliquam soluta, cupiditate nobis nesciunt iure. Maiores molestias atque incidunt officiis assumenda est laboriosam ab?</p>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptas modi ipsum aliquid eos numquam aliquam soluta, cupiditate nobis nesciunt iure. Maiores molestias atque incidunt officiis assumenda est laboriosam ab?</p>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script>
+        // DOM manipulation
+
+        // como imprimir el contenido alternate de las imagens de una pagina web 
+        /* document.querySelectorAll('img').forEach( e => console.log(e.alt)); */
+
+        // 1 esecizio crea bottone con bootstrash y stampa ok en la consola 
+
+        /* let myBth = document.querySelector('#hola')
+         .addEventListener('click', () => console.log('ok')); */
+
+        // 2 esercizio 
+        /* let btn = document.querySelector('#hola')
+        let tela = document.querySelector('.tela') */
+
+        // devo poter cliccare sul btn e generare un colore, calcolare tela col il colore random 
+
+        /* btn.addEventListener('click', () => { */
+
+            // struttura rgb(255, 290, 30)
+             /* tela.style.backgroundColor = "rgb(" + randomColor() + "," + randomColor() + "," + randomColor() + ")"
+        }) 
+ */
+        // creo prima la funzione con console log per generare numero random 
+       /*  function randomColor(){ */
+            /* console.log(Math.round(Math.random() * (255 - 0) + 0)) */
+
+            // quando creo la funzione per farla funzionare nel programma devi fare return 
+            /* return Math.round(Math.random() * (255 - 0) + 0);
+        } */
+        // ti serve solo per vedere in console 
+        // randomColor()
+
+
+        // escribir un visor de colores hexadecimales
+
+        /* let colorButton = document.querySelector('#colorButton')
+        colorButton.addEventListener('click', (e) => {
+            e.preventDefault()
+            let colorInput = document.querySelector('#colorInput').value
+            let colorBox = document.querySelector('#colorBox').style.backgroundColor = "#" + colorInput
+            console.log(colorInput)
+        }) */
+
+
+          /*   3 esercizio  */
+        /* let toggler = document.querySelector('#toggler')
+            toggler.addEventListener('click', function(){ 
+
+
+            /* let para = document.querySelector('.lead').style.backgroundColor = "yellow" */
+
+
+            /* document.body.classList.toggle('bg-dark')
+            document.body.classList.toggle('text-light') */
+            /* console.log('click on!')
+        }) */
+
+    </script>
+</body>
+
+</html>
